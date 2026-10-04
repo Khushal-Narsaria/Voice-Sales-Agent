@@ -1,0 +1,17 @@
+[project]
+name = "voice-sales-agent"
+version = "1.0.0"
+description = "Hindi / Hinglish / English voice AI sales agent: conversation flow engine, prompt variants, guardrails, simulated-call evaluation, Whisper speech tests and SQL analytics"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
+src = ["src", "tests", "."]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

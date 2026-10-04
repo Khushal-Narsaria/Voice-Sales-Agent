@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+out/
+results/calls.db
+results/dev/
+results/eval.log
+.DS_Store
+results/analyze.txt
+results/voice_eval.log
+results/first_run_summary.json.bak
